@@ -1,6 +1,6 @@
 <!-- # links ------------------------------------------------------------- # -->
 
-[email]: mailto:baginskioss@proton.me
+[email]: mailto:thepocketworks@proton.me
 
 <!-- # introduction ------------------------------------------------------ # -->
 
@@ -147,7 +147,7 @@ it occurs during a technical discussion.
 If you experience or witness behavior that violates this
 **Code of Conduct**, please report it privately.\
 For sensitive or serious matters, please contact:
-[**`baginskioss@proton.me`**][email].
+[**`thepocketworks@proton.me`**][email].
 
 Please do not open a public GitHub Issue for Code of Conduct reports.\
 When reporting an incident, please provide as much relevant information

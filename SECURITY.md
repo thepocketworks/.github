@@ -1,6 +1,6 @@
 <!-- # links ------------------------------------------------------------- # -->
 
-[email]: mailto:baginskioss@proton.me
+[email]: mailto:thepocketworks@proton.me
 
 <!-- # contact ----------------------------------------------------------- # -->
 
@@ -14,7 +14,7 @@
 > security, privacy, or integrity of a project, please report it
 > **directly by email:**
 >
-> #### [`baginskioss@proton.me`][email]
+> #### [`thepocketworks@proton.me`][email]
 
 The security of my projects and the people who use them is
 important to me.
@@ -196,7 +196,7 @@ information, or other sensitive data associated with one of my projects,
 please **do not use, publish, or redistribute it**.
 
 Report the exposure privately at:
-[**`baginskioss@proton.me`**][email].
+[**`thepocketworks@proton.me`**][email].
 
 Please include enough information for me to identify the affected project
 and determine what needs to be revoked, removed, or changed.
@@ -256,4 +256,4 @@ my projects.
 
 For all security-related reports and questions, please contact:
 
-#### [`baginskioss@proton.me`][email]
+#### [`thepocketworks@proton.me`][email]
