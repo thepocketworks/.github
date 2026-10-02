@@ -1,0 +1,133 @@
+name: Bug Report
+description: Report a reproducible problem or unexpected behavior.
+title: "[Bug]: "
+labels:
+  - bug
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Before You Start
+
+        Thank you for taking the time to report a problem.
+
+        Please search existing Issues before submitting a new report to make sure the problem has not already been reported.
+
+        > **Security vulnerabilities must not be reported here.**
+        >
+        > If you believe you have found a security vulnerability, please follow the instructions in [SECURITY.md](../../SECURITY.md) and contact the maintainer privately.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Clearly describe the problem you encountered.
+      placeholder: |
+        What happened?
+        What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Provide clear and minimal steps that reproduce the problem.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: Describe what you expected to happen.
+      placeholder: Describe the expected behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: Describe what actually happened.
+      placeholder: Describe the actual behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: minimal-reproduction
+    attributes:
+      label: Minimal Reproduction
+      description: If possible, provide a minimal example or repository that reproduces the problem.
+      placeholder: Provide a link or explain how to reproduce the issue.
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Project Version
+      description: Which version or commit are you using?
+      placeholder: "Example: v1.2.0 or abc1234"
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      description: Which operating system are you using?
+      placeholder: "Example: Ubuntu 24.04, Windows 11, macOS 15"
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Provide relevant runtime, language, package manager, browser, or tool versions.
+      placeholder: |
+        Runtime:
+        Language:
+        Package Manager:
+        Browser:
+        Other:
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and Error Messages
+      description: Include relevant logs or error messages. Please remove secrets and private information.
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other information that may help understand or reproduce the problem.
+      placeholder: Screenshots, related Issues, additional observations, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing Issues and did not find an existing report for this problem.
+          required: true
+        - label: I have provided enough information to reproduce the problem.
+          required: true
+        - label: I have removed credentials, secrets, tokens, and private information from this report.
+          required: true
+        - label: This is not a security vulnerability.
+          required: true

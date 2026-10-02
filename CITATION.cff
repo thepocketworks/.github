@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: Baginski | Open Source
+message: >-
+  If you find this software useful, please consider citing
+  our organization.
+type: software
+authors:
+  - given-names: Eduardo
+    family-names: Baginski Costa
+    email: baginskioss@proton.me
+    affiliation: Baginski | Open Source
+    orcid: "https://orcid.org/0009-0004-8118-7168"
+  - name: Baginski | Open Source
+    city: Palmeira
+    country: BR
+    post-code: "84130000"
+    website: "https://github.com/baginskioss"
+    orcid: "https://orcid.org/0009-0004-8118-7168"
+    email: baginskioss@proton.me
+license: BSD-3-Clause

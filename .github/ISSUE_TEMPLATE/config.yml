@@ -1,0 +1,18 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Community Discussions
+    url: https://github.com/orgs/baginskioss/discussions
+    about: Ask questions, share ideas, and discuss the project with the community.
+
+  - name: Security Vulnerability
+    url: https://github.com/baginskioss/.github/blob/main/SECURITY.md
+    about: Read the Security Policy before reporting a potential security vulnerability.
+
+  - name: Code of Conduct
+    url: https://github.com/baginskioss/.github/blob/main/CODE_OF_CONDUCT.md
+    about: Read the Code of Conduct before participating in the project.
+
+  - name: Contributing Guide
+    url: https://github.com/baginskioss/.github/blob/main/CONTRIBUTING.md
+    about: Learn how to contribute, report issues, and submit Pull Requests.
